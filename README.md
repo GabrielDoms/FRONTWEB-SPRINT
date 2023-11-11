@@ -7,10 +7,8 @@ Para rodar o projeto localmente, siga os passos abaixo:
 
 Clone o repositório para a sua máquina:
 
-Copy code
 Navegue até o diretório do projeto:
 
-Copy code
 cd nome-do-repositorio
 Instale as dependências utilizando o npm:
 
