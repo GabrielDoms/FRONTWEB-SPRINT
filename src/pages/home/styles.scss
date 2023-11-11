@@ -1,0 +1,86 @@
+.HomeContent {
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    row-gap: 2rem;
+  }
+  
+  .HomePresentationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    row-gap: 1rem;
+  }
+  
+  .HomePresentationTitle {
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000000;
+  }
+  
+  .HomePresentationDescription {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #262626;
+  }
+  
+  .HomeMetropolisSmogContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    width: 100%;
+  
+    @media screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+  }
+  
+  .HomeMetropolisSmogImage {
+    height: 46rem;
+  
+    max-width: 24rem;
+  
+    border-radius: 0.25rem;
+  
+    object-fit: cover;
+  
+    border: 1px solid black;
+  
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  
+  .HomeMetropolisSmogAboutContainer {
+    display: flex;
+    flex-direction: column;
+  
+    align-items: flex-start;
+    justify-content: center;
+  
+    width: calc(100% - 28rem);
+  
+    row-gap: 3.5rem;
+  
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+  
+  .HomeMetropolisSmogAboutText {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #262626;
+  }
+  
+  .HomeMetropolisSmogAboutTitle {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #000000;
+  }
+  

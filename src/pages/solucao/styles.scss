@@ -1,0 +1,41 @@
+.SolutionContent {
+    width: 100%;
+  
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+  
+    row-gap: 2rem;
+  }
+  
+  .SolutionFocusContainer {
+    width: 100%;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  
+    row-gap: 2rem;
+  }
+  
+  .SolutionImage {
+    width: 100%;
+  
+    object-fit: cover;
+  
+    border-radius: 0.25rem;
+  }
+  
+  .SolutionTitle {
+    font-size: 2rem;
+    font-weight: 600;
+  
+    color: #000000;
+  }
+  
+  .SolutionDescription {
+    color: #262626;
+  
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  
