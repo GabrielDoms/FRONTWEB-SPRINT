@@ -28,6 +28,7 @@ Senha: senha123
 Estilização
 O projeto utiliza Styled Components juntamente com SCSS para a estilização. Os estilos podem ser encontrados nos arquivos relacionados no diretório src/styles.
 
+SITE HOSPEDADO EM -> https://shiny-sable-dbadd5.netlify.app/
 
 Autores
 Eduardo Andrade (RM99758)
